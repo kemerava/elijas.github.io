@@ -9,7 +9,7 @@ var divs = $('span[id^="caption-"]').hide(),
 (function cycle() { 
 
     divs.eq(i).fadeIn(500)
-              .delay(1200)
+              .delay(1500)
               .fadeOut(500, cycle);
 
     i = ++i % divs.length;
